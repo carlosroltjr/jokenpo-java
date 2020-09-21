@@ -1,10 +1,20 @@
 package model;
 
-public abstract class Participante {
+public class Participante {
+
+    private final String nome;
 
     private int pontuacao;
 
     private String jogada;
+
+    public Participante(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
 
     public int getPontuacao() {
         return pontuacao;

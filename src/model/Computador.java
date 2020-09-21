@@ -4,6 +4,10 @@ import java.util.Random;
 
 public class Computador extends Participante {
 
+    public Computador(String nome) {
+        super(nome);
+    }
+
     public String gerarJogadaAleatoria() {
         Random random = new Random();
 
