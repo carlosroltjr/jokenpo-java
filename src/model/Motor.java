@@ -1,6 +1,5 @@
 package model;
 
 public interface Motor {
-    void jogar();
-    void compararJogadas(Jogador jogador, Computador computador);
+    Participante compararJogadas(Participante jogador1, Participante jogador2);
 }
