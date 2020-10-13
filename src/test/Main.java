@@ -31,7 +31,8 @@ public class Main {
                 System.out.println("Empate!");
             } else {
                 System.out.println(vencedor.getNome() + " ganhou!");
-                System.out.println("Placar: " + jogador.getNome() + " " +  jogador.getPontuacao() + " e " + "Computador " + computador.getPontuacao());
+                System.out.println("Placar: " + jogador.getNome() + " " +  jogador.getPontuacao() +
+                        " e " + computador.getNome() + " " + computador.getPontuacao());
             }
 
             System.out.println("Jogar novamente? [s / n]");
